@@ -1,0 +1,8 @@
+name: First Github CI/CD
+on: [push]
+jobs:
+  print-hellow-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello worlds!!"
+      - run: echo "this si is another sentence"
